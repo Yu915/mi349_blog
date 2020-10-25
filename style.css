@@ -1,0 +1,112 @@
+html {
+    background-image: url("background.jpeg");
+}
+
+body{
+    border-top: 10px solid rgb(123, 77, 230);
+    background: rgb(231, 236, 247);
+    color:black;
+    margin: 100px;
+    padding: 50px;
+}
+
+ [article] {
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+h1 {
+    font-size:  3em;
+    margin: 0;
+}
+
+p {
+    line-height: 2em;
+}
+
+#blog {
+    border-top: 1px dotted rgb(17, 17, 17);
+}
+
+.Yu-Blog {
+    border-bottom: 1px dotted rgb(15, 15, 15);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1;
+}
+
+h3 {
+    font-size: 2.2em;
+    margin: 1;
+}
+
+table {
+    font-size: 0.7em;
+    border: solid 2px black;
+}
+
+
+
+input {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+a[href="index.html"] {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 70, 240);
+}
+
+a[href="about.html"] {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 70, 240);
+}
+
+a[href="contact.html"] {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 70, 240);
+}
+
+h5 {
+    color: red;
+    font-size: 1.2em;
+}
+
+button {
+    font-size: 1.1em;
+    margin: 5px;
+}
+
+#email {
+    color: red;
+    font-size: 1.2em;
+}
+
+form[method="post"] {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+h6 {
+    margin: 0;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85, 22, 233);
+}
+
+legend {
+    font-size: 1.2em;
+    color: rgb(17, 16, 17);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
