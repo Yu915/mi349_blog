@@ -4,9 +4,9 @@ html {
 
 body{
     border-top: 10px solid rgb(123, 77, 230);
-    background: rgb(231, 236, 247);
+    background: rgb(248, 250, 253);
     color:black;
-    margin: 100px;
+    margin: 120px;
     padding: 50px;
 }
 
@@ -16,37 +16,90 @@ body{
 }
 
 h1 {
+    border: 3px solid rgb(131, 34, 211);
+    background-color: rgb(207, 165, 247);
     font-size:  3em;
-    margin: 0;
+    padding: 10px;
+
 }
 
 p {
     line-height: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+  
 }
 
 #blog {
-    border-top: 1px dotted rgb(17, 17, 17);
+    display: flex;
+    flex-direction: column;
+   
+   
 }
 
+
 .Yu-Blog {
-    border-bottom: 1px dotted rgb(15, 15, 15);
+    border-bottom: 2px solid rgb(15, 15, 15);
+    border-top: 2px solid rgb(17, 17, 17);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1.1em;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(227, 207, 250);
+   
 }
+
+.Yu-Blog2 {
+    border-bottom: 2px solid rgb(15, 15, 15);
+    border-top: 2px solid rgb(17, 17, 17);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(227, 207, 250); 
+
+}
+
+
+article:nth-of-type(1) {
+    flex: 1;
+}
+
+article:nth-of-type(2) {
+    flex: 1;
+}
+
+
+
+.nav {
+    background: rgb(166, 135, 240);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+
 
 h2 {
     font-size: 1.5em;
-    margin: 1;
+    margin: 10px;
+    
+    
 }
 
 h3 {
-    font-size: 2.2em;
-    margin: 1;
+    font-size: 2em;
+    
+  
 }
 
 table {
-    font-size: 0.7em;
+    font-size: 1.2em;
     border: solid 2px black;
+   
+    
 }
 
 
@@ -55,9 +108,6 @@ input {
     font-size: 1em;
 }
 
-h4 {
-    font-size: 1em;
-}
 
 a[href="index.html"] {
     font-size: 1.2em;
@@ -77,32 +127,32 @@ a[href="contact.html"] {
     color: rgb(58, 70, 240);
 }
 
-h5 {
+
+h4 {
     color: red;
-    font-size: 1.2em;
+    font-size: 1.8em;
+    margin-left: 40px;
 }
 
 button {
     font-size: 1.1em;
-    margin: 5px;
+    margin: 10px;
+
 }
 
 #email {
     color: red;
     font-size: 1.2em;
+    padding: 20px;
+    margin: 20px;
 }
 
 form[method="post"] {
     font-size: 1.5em;
     margin: 10px;
+   
 }
 
-h6 {
-    margin: 0;
-    font-size: 3em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(85, 22, 233);
-}
 
 legend {
     font-size: 1.2em;
@@ -110,3 +160,25 @@ legend {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+fieldset {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+
+.author {
+    font-size: 1.3em;
+}
+
+.f1 {
+   height:  100px;
+}
+
+.f2 {
+    height: 150px;
+}
+
+textarea {
+    height: 70px;
+}
