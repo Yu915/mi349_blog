@@ -173,12 +173,15 @@ fieldset {
 
 .f1 {
    height:  100px;
+   width: 57cm;
 }
 
 .f2 {
     height: 150px;
+    width: 57cm;
 }
 
 textarea {
     height: 70px;
+    width: 57cm;
 }
