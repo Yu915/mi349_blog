@@ -185,3 +185,10 @@ textarea {
     height: 70px;
     width: 57cm;
 }
+
+@media (max-width: 600px) {
+    h1 {
+        background-color: rgb(243, 105, 95);
+    }
+  
+}
