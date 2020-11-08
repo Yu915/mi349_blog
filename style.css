@@ -186,8 +186,11 @@ textarea {
     width: 57cm;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     h1 {
+        background-color: rgb(243, 105, 95);
+    }
+    #blog {
         background-color: rgb(243, 105, 95);
     }
   
